@@ -11,9 +11,11 @@ int main()
             scanf("%d",&mat[i][j]);
         }
     }
-    for(i=1;i<=b;i++){
+    for(i=1;i<=b;i++)
+    {
         int sum=0;
-        for(j=1;j<=a;j++){
+        for(j=1;j<=a;j++)
+        {
             sum+=mat[j][i];
         }
         printf("%d ",sum);
